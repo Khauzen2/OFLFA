@@ -1,0 +1,41 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .groups {
+        flex-direction: column;
+    }
+
+    .team-list ul {
+        columns: 1;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .groups {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

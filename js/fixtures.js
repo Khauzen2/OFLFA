@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const fixtures = [
         {
-            date: '16/06/2025',
+            date: '21/06/2025',
             day: 'Saturday',
             venue: 'Driziek 5 ground',
             matches: [
